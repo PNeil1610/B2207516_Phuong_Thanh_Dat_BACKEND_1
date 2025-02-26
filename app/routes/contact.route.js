@@ -8,6 +8,7 @@ router.route('/')
     .post(contacts.create)
     .delete(contacts.deleteAll);
 
+    //api lay favorite
 router.route('/favorite')
     .get(contacts.findAllFavorite);
 
